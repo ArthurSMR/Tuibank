@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3644C72523AD3FB3009B1324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3644C72423AD3FB3009B1324 /* AppDelegate.swift */; };
+		3644C72723AD3FB3009B1324 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3644C72623AD3FB3009B1324 /* SceneDelegate.swift */; };
+		3644C72923AD3FB3009B1324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3644C72823AD3FB3009B1324 /* ViewController.swift */; };
+		3644C72C23AD3FB3009B1324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3644C72A23AD3FB3009B1324 /* Main.storyboard */; };
+		3644C72F23AD3FB3009B1324 /* tuibank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3644C72D23AD3FB3009B1324 /* tuibank.xcdatamodeld */; };
+		3644C73123AD3FB5009B1324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3644C73023AD3FB5009B1324 /* Assets.xcassets */; };
+		3644C73423AD3FB5009B1324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3644C73223AD3FB5009B1324 /* LaunchScreen.storyboard */; };
+		3644C73F23AD3FB5009B1324 /* tuibankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3644C73E23AD3FB5009B1324 /* tuibankTests.swift */; };
+		3644C74A23AD3FB5009B1324 /* tuibankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3644C74923AD3FB5009B1324 /* tuibankUITests.swift */; };
+		364A84BF23C6494400574899 /* InfosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364A84BD23C6494400574899 /* InfosTableViewCell.swift */; };
+		364A84C023C6494400574899 /* InfosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 364A84BE23C6494400574899 /* InfosTableViewCell.xib */; };
+		364A84C223C6505600574899 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364A84C123C6505600574899 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3644C73B23AD3FB5009B1324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3644C71923AD3FB3009B1324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3644C72023AD3FB3009B1324;
+			remoteInfo = tuibank;
+		};
+		3644C74623AD3FB5009B1324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3644C71923AD3FB3009B1324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3644C72023AD3FB3009B1324;
+			remoteInfo = tuibank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3644C72123AD3FB3009B1324 /* tuibank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tuibank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3644C72423AD3FB3009B1324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3644C72623AD3FB3009B1324 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3644C72823AD3FB3009B1324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3644C72B23AD3FB3009B1324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3644C72E23AD3FB3009B1324 /* tuibank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tuibank.xcdatamodel; sourceTree = "<group>"; };
+		3644C73023AD3FB5009B1324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3644C73323AD3FB5009B1324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3644C73523AD3FB5009B1324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3644C73A23AD3FB5009B1324 /* tuibankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tuibankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3644C73E23AD3FB5009B1324 /* tuibankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tuibankTests.swift; sourceTree = "<group>"; };
+		3644C74023AD3FB5009B1324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3644C74523AD3FB5009B1324 /* tuibankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tuibankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3644C74923AD3FB5009B1324 /* tuibankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tuibankUITests.swift; sourceTree = "<group>"; };
+		3644C74B23AD3FB5009B1324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364A84BD23C6494400574899 /* InfosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfosTableViewCell.swift; sourceTree = "<group>"; };
+		364A84BE23C6494400574899 /* InfosTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfosTableViewCell.xib; sourceTree = "<group>"; };
+		364A84C123C6505600574899 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3644C71E23AD3FB3009B1324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3644C73723AD3FB5009B1324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3644C74223AD3FB5009B1324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3644C71823AD3FB3009B1324 = {
+			isa = PBXGroup;
+			children = (
+				3644C72323AD3FB3009B1324 /* tuibank */,
+				3644C73D23AD3FB5009B1324 /* tuibankTests */,
+				3644C74823AD3FB5009B1324 /* tuibankUITests */,
+				3644C72223AD3FB3009B1324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3644C72223AD3FB3009B1324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3644C72123AD3FB3009B1324 /* tuibank.app */,
+				3644C73A23AD3FB5009B1324 /* tuibankTests.xctest */,
+				3644C74523AD3FB5009B1324 /* tuibankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3644C72323AD3FB3009B1324 /* tuibank */ = {
+			isa = PBXGroup;
+			children = (
+				3644C72423AD3FB3009B1324 /* AppDelegate.swift */,
+				3644C72623AD3FB3009B1324 /* SceneDelegate.swift */,
+				364A84BD23C6494400574899 /* InfosTableViewCell.swift */,
+				364A84BE23C6494400574899 /* InfosTableViewCell.xib */,
+				3644C72823AD3FB3009B1324 /* ViewController.swift */,
+				364A84C123C6505600574899 /* Extensions.swift */,
+				3644C72A23AD3FB3009B1324 /* Main.storyboard */,
+				3644C73023AD3FB5009B1324 /* Assets.xcassets */,
+				3644C73223AD3FB5009B1324 /* LaunchScreen.storyboard */,
+				3644C73523AD3FB5009B1324 /* Info.plist */,
+				3644C72D23AD3FB3009B1324 /* tuibank.xcdatamodeld */,
+			);
+			path = tuibank;
+			sourceTree = "<group>";
+		};
+		3644C73D23AD3FB5009B1324 /* tuibankTests */ = {
+			isa = PBXGroup;
+			children = (
+				3644C73E23AD3FB5009B1324 /* tuibankTests.swift */,
+				3644C74023AD3FB5009B1324 /* Info.plist */,
+			);
+			path = tuibankTests;
+			sourceTree = "<group>";
+		};
+		3644C74823AD3FB5009B1324 /* tuibankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3644C74923AD3FB5009B1324 /* tuibankUITests.swift */,
+				3644C74B23AD3FB5009B1324 /* Info.plist */,
+			);
+			path = tuibankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3644C72023AD3FB3009B1324 /* tuibank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3644C74E23AD3FB5009B1324 /* Build configuration list for PBXNativeTarget "tuibank" */;
+			buildPhases = (
+				3644C71D23AD3FB3009B1324 /* Sources */,
+				3644C71E23AD3FB3009B1324 /* Frameworks */,
+				3644C71F23AD3FB3009B1324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tuibank;
+			productName = tuibank;
+			productReference = 3644C72123AD3FB3009B1324 /* tuibank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3644C73923AD3FB5009B1324 /* tuibankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3644C75123AD3FB5009B1324 /* Build configuration list for PBXNativeTarget "tuibankTests" */;
+			buildPhases = (
+				3644C73623AD3FB5009B1324 /* Sources */,
+				3644C73723AD3FB5009B1324 /* Frameworks */,
+				3644C73823AD3FB5009B1324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3644C73C23AD3FB5009B1324 /* PBXTargetDependency */,
+			);
+			name = tuibankTests;
+			productName = tuibankTests;
+			productReference = 3644C73A23AD3FB5009B1324 /* tuibankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3644C74423AD3FB5009B1324 /* tuibankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3644C75423AD3FB5009B1324 /* Build configuration list for PBXNativeTarget "tuibankUITests" */;
+			buildPhases = (
+				3644C74123AD3FB5009B1324 /* Sources */,
+				3644C74223AD3FB5009B1324 /* Frameworks */,
+				3644C74323AD3FB5009B1324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3644C74723AD3FB5009B1324 /* PBXTargetDependency */,
+			);
+			name = tuibankUITests;
+			productName = tuibankUITests;
+			productReference = 3644C74523AD3FB5009B1324 /* tuibankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3644C71923AD3FB3009B1324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Arthur Rodrigues";
+				TargetAttributes = {
+					3644C72023AD3FB3009B1324 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					3644C73923AD3FB5009B1324 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 3644C72023AD3FB3009B1324;
+					};
+					3644C74423AD3FB5009B1324 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 3644C72023AD3FB3009B1324;
+					};
+				};
+			};
+			buildConfigurationList = 3644C71C23AD3FB3009B1324 /* Build configuration list for PBXProject "tuibank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3644C71823AD3FB3009B1324;
+			productRefGroup = 3644C72223AD3FB3009B1324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3644C72023AD3FB3009B1324 /* tuibank */,
+				3644C73923AD3FB5009B1324 /* tuibankTests */,
+				3644C74423AD3FB5009B1324 /* tuibankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3644C71F23AD3FB3009B1324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3644C73423AD3FB5009B1324 /* LaunchScreen.storyboard in Resources */,
+				364A84C023C6494400574899 /* InfosTableViewCell.xib in Resources */,
+				3644C73123AD3FB5009B1324 /* Assets.xcassets in Resources */,
+				3644C72C23AD3FB3009B1324 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3644C73823AD3FB5009B1324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3644C74323AD3FB5009B1324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3644C71D23AD3FB3009B1324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3644C72923AD3FB3009B1324 /* ViewController.swift in Sources */,
+				364A84C223C6505600574899 /* Extensions.swift in Sources */,
+				364A84BF23C6494400574899 /* InfosTableViewCell.swift in Sources */,
+				3644C72523AD3FB3009B1324 /* AppDelegate.swift in Sources */,
+				3644C72F23AD3FB3009B1324 /* tuibank.xcdatamodeld in Sources */,
+				3644C72723AD3FB3009B1324 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3644C73623AD3FB5009B1324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3644C73F23AD3FB5009B1324 /* tuibankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3644C74123AD3FB5009B1324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3644C74A23AD3FB5009B1324 /* tuibankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3644C73C23AD3FB5009B1324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3644C72023AD3FB3009B1324 /* tuibank */;
+			targetProxy = 3644C73B23AD3FB5009B1324 /* PBXContainerItemProxy */;
+		};
+		3644C74723AD3FB5009B1324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3644C72023AD3FB3009B1324 /* tuibank */;
+			targetProxy = 3644C74623AD3FB5009B1324 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3644C72A23AD3FB3009B1324 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3644C72B23AD3FB3009B1324 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3644C73223AD3FB5009B1324 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3644C73323AD3FB5009B1324 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3644C74C23AD3FB5009B1324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3644C74D23AD3FB5009B1324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3644C74F23AD3FB5009B1324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KU377264X;
+				INFOPLIST_FILE = tuibank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodrigues.arthur.tuibank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3644C75023AD3FB5009B1324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KU377264X;
+				INFOPLIST_FILE = tuibank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodrigues.arthur.tuibank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3644C75223AD3FB5009B1324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KU377264X;
+				INFOPLIST_FILE = tuibankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodrigues.arthur.tuibankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tuibank.app/tuibank";
+			};
+			name = Debug;
+		};
+		3644C75323AD3FB5009B1324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KU377264X;
+				INFOPLIST_FILE = tuibankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodrigues.arthur.tuibankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tuibank.app/tuibank";
+			};
+			name = Release;
+		};
+		3644C75523AD3FB5009B1324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KU377264X;
+				INFOPLIST_FILE = tuibankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodrigues.arthur.tuibankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tuibank;
+			};
+			name = Debug;
+		};
+		3644C75623AD3FB5009B1324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KU377264X;
+				INFOPLIST_FILE = tuibankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodrigues.arthur.tuibankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tuibank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3644C71C23AD3FB3009B1324 /* Build configuration list for PBXProject "tuibank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3644C74C23AD3FB5009B1324 /* Debug */,
+				3644C74D23AD3FB5009B1324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3644C74E23AD3FB5009B1324 /* Build configuration list for PBXNativeTarget "tuibank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3644C74F23AD3FB5009B1324 /* Debug */,
+				3644C75023AD3FB5009B1324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3644C75123AD3FB5009B1324 /* Build configuration list for PBXNativeTarget "tuibankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3644C75223AD3FB5009B1324 /* Debug */,
+				3644C75323AD3FB5009B1324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3644C75423AD3FB5009B1324 /* Build configuration list for PBXNativeTarget "tuibankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3644C75523AD3FB5009B1324 /* Debug */,
+				3644C75623AD3FB5009B1324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3644C72D23AD3FB3009B1324 /* tuibank.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3644C72E23AD3FB3009B1324 /* tuibank.xcdatamodel */,
+			);
+			currentVersion = 3644C72E23AD3FB3009B1324 /* tuibank.xcdatamodel */;
+			path = tuibank.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3644C71923AD3FB3009B1324 /* Project object */;
+}
